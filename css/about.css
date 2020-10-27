@@ -34,7 +34,7 @@
     border: 1px solid #fff;
     background-color: #D40A44;
     padding: 15px 30px;
-    border-radius: 100px;
+    border-radius: 5px;
 }
 
 .section-about > .container button:hover {
