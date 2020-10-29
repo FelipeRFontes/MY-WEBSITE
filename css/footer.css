@@ -1,0 +1,37 @@
+.section-footer {
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+.section-footer > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 60px 20px;
+}
+
+.section-footer > .container h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-footer > .container .content {
+    display: flex;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 599px) {
+    .section-footer {
+        background-color: blue;
+    }
+
+    .section-footer > .container .content {
+        flex-direction: column;
+    }
+}

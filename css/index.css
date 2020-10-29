@@ -4,6 +4,8 @@
 @import 'hero.css';
 @import 'about.css';
 @import 'portifolio.css';
+@import 'contact-me.css';
+@import 'footer.css';
 
 * {
   box-sizing: border-box;

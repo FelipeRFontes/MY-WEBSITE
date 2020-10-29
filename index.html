@@ -67,39 +67,42 @@
     <div class="container">
       <h3>Contact me</h3>
       <div class="content">
-      </div>
-    </div>
     <div class="form">
       <form>
         <div>
-          <label>Nome:</label>
-          <input type="text" name="nome" minlength="24" maxlength="256" placeholder="Ex: Felipe" required>
+          <label>Nome</label><br>
+          <input class="input" type="text" name="nome" minlength="24" maxlength="256" required>
         </div>
         <div>
-          <label>E-mail:</label>
-          <input type="email" name="email" minlength="8" maxlength="256" placeholder="Ex: felipefontes.sp@gmail.com" required />
+          <label>E-mail</label><br>
+          <input class="input" type="email" name="email" minlength="8" maxlength="256" required />
         </div>
         <div>
-          <label>Phone Number</label>
-          <input type="tel" name="Phone" minlength="8" maxlength="256" placeholder="Ex: (99) 99999-9999" required />
+          <label>Phone Number</label><br>
+          <input class="input" type="tel" name="Phone" minlength="8" maxlength="256" required />
         </div>
         <div>
-          <label>Message:</label>
-          <textarea name="como_conheceu_o_site" maxlength="256" placeholder="Explique como nos conheceu"></textarea>
+          <label>Message</label><br>
+          <textarea class="input" name="como_conheceu_o_site" maxlength="256"></textarea>
         </div>
-        <input type="submit" value="Send" />
       </form>
+      <div>
+        <button>Send</button>
+      </div>
     </div>
   </section>
   <section class="section-footer">
     <div class="container">
       <h4>Location</h4>
-      <p>2215 Jonh Daniel Drive Clark, MO 65243</p>
-      <div class="content">
+      <p>2215 Jonh Daniel Drive Clark, MI 65243</p>
         <div>
           <h4>Around the Web</h4>
-          <img src="img/facebook.png">
-        </div>
+          <div class="icons">
+            <img src="img/facebook.png">
+            <img src="img/twitter.png">
+            <img src="img/linkedin.png">
+            <img src="img/dribbble.png">
+          </div>
         <div>
           <h4>About Free Lancer</h4>
           <p>Free lancer is a free to use, MIT licensed Bootstrap theme created by MyWebsite</p>
